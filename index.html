@@ -1,143 +1,156 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <title>Projeto Corpo Leve</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
-    body { font-family: Arial, sans-serif; margin:0; background:#f5f5f5; }
-    header { background:#2ecc71; color:#fff; padding:40px 20px; text-align:center; }
-    section { padding:30px 20px; max-width:900px; margin:auto; }
-    h2 { color:#2ecc71; }
-    .box { background:#fff; padding:20px; border-radius:10px; margin-bottom:20px; }
-    .btn {
-      display:inline-block;
-      background:#2ecc71;
-      color:#fff;
-      padding:15px 25px;
-      border-radius:8px;
-      text-decoration:none;
-      font-weight:bold;
-      margin-top:10px;
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f5f7f6;
+      color: #333;
     }
-    img { max-width:100%; border-radius:10px; margin-top:15px; }
-    footer { background:#222; color:#ccc; text-align:center; padding:15px; }
+
+    header {
+      background: #2ecc71;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h1, h2, h3 {
+      margin-top: 0;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 25px;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #2ecc71;
+      color: #fff;
+      padding: 15px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+
+    .btn.alt {
+      background: #27ae60;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 12px;
+      margin: 20px 0;
+    }
+
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
   </style>
 </head>
+
 <body>
 
 <header>
   <h1>Projeto Corpo Leve</h1>
-  <p>Emagreça com saúde, passo a passo, no seu ritmo</p>
+  <p>Emagrecimento real, simples e possível</p>
 </header>
 
 <section>
-  <div class="box">
-    <h2>📌 Introdução</h2>
+  <div class="card">
+    <h2>O que é o Projeto Corpo Leve?</h2>
     <p>
-      O Projeto Corpo Leve foi criado para pessoas que querem emagrecer
-      de forma saudável, sem dietas malucas e sem pressão.
+      O Projeto Corpo Leve foi criado para ajudar pessoas comuns a emagrecerem
+      de forma consciente, sem promessas falsas, sem dietas malucas
+      e sem treinos impossíveis.
     </p>
-    <img src="https://images.unsplash.com/photo-1554284126-aa88f22d8b74" alt="Vida saudável">
+    <p>
+      Aqui você aprende o que fazer, como fazer e por que fazer.
+    </p>
   </div>
 
-  <div class="box">
-    <h2>🎯 Objetivo do Projeto</h2>
+  <div class="card">
+    <h2>Conteúdo Gratuito (Introdução)</h2>
+    <img src="https://images.unsplash.com/photo-1594737625785-cfc6c7d8d94d">
+    <p>
+      Exercícios leves, orientação básica de alimentação
+      e entendimento do processo de emagrecimento.
+    </p>
+    <p>
+      Ideal para quem está começando.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>O que você recebe ao assinar</h2>
     <ul>
-      <li>Reduzir peso com saúde</li>
-      <li>Criar hábitos sustentáveis</li>
-      <li>Evitar efeito sanfona</li>
-      <li>Ensinar o processo, não só mandar fazer</li>
+      <li>✔ Exercícios estruturados</li>
+      <li>✔ Alimentação organizada</li>
+      <li>✔ Receitas simples e acessíveis</li>
+      <li>✔ Conteúdo direto ao ponto</li>
     </ul>
   </div>
 
-  <div class="box">
-    <h2>🏃 Exercícios</h2>
+  <div class="card">
+    <h2>Planos de Assinatura</h2>
+
+    <h3>Plano Essencial</h3>
+    <p><strong>R$ 19,90 / mês</strong></p>
     <p>
-      Exercícios simples, feitos em casa, sem equipamentos caros.
+      Exercícios completos + alimentação organizada
     </p>
-    <img src="https://images.unsplash.com/photo-1594737625785-cf4b62f5c41b" alt="Exercícios em casa">
+    <a class="btn" href="https://go.pepperpay.com.br/jqr8l" target="_blank">
+      Assinar Plano Essencial
+    </a>
+
+    <hr style="margin:30px 0">
+
+    <h3>Plano Completo</h3>
+    <p><strong>R$ 20,00 / mês</strong></p>
+    <p>
+      Conteúdo total + exercícios mais avançados
+    </p>
+    <a class="btn alt" href="https://go.pepperpay.com.br/zkcqx" target="_blank">
+      Assinar Plano Completo
+    </a>
   </div>
 
-  <div class="box">
-    <h2>🥗 Alimentação</h2>
+  <div class="card">
+    <h2>Por que funciona?</h2>
+    <img src="https://images.unsplash.com/photo-1554284126-aa88f22d8b74">
     <p>
-      Alimentação prática, acessível e realista.
-      Nada de passar fome.
+      Porque é simples, realista e focado em constância.
+      Não é sobre milagre. É sobre processo.
     </p>
-    <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061" alt="Alimentação saudável">
-  </div>
-
-  <div class="box">
-    <h2>❌ O que NÃO é o projeto</h2>
-    <ul>
-      <li>Não é dieta milagrosa</li>
-      <li>Não promete resultados irreais</li>
-      <li>Não incentiva práticas perigosas</li>
-    </ul>
-  </div>
-
-  <div class="box">
-    <h2>💳 Quer acesso completo?</h2>
-    <p>
-      Ao assinar, você desbloqueia conteúdos organizados,
-      progressivos e acompanhamento completo.
-    </p>
-    <a class="btn" href="assinatura.html">Ver planos e assinar</a>
   </div>
 </section>
 
 <footer>
-  Projeto Corpo Leve © 2026 — Conteúdo educativo. Resultados variam.
+  <p>
+    Projeto Corpo Leve © 2026  
+    <br>
+    Conteúdo educativo. Resultados variam de pessoa para pessoa.
+  </p>
 </footer>
-
-</body>
-</html><!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <title>Assinatura - Projeto Corpo Leve</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body { font-family: Arial; background:#f5f5f5; }
-    header { background:#2ecc71; color:#fff; text-align:center; padding:30px; }
-    .card {
-      background:#fff;
-      max-width:400px;
-      margin:30px auto;
-      padding:20px;
-      border-radius:10px;
-      text-align:center;
-    }
-    .btn {
-      background:#2ecc71;
-      color:#fff;
-      padding:15px;
-      display:block;
-      border-radius:8px;
-      text-decoration:none;
-      font-weight:bold;
-      margin-top:15px;
-    }
-  </style>
-</head>
-<body>
-
-<header>
-  <h1>Finalize sua Assinatura</h1>
-</header>
-
-<div class="card">
-  <h2>Plano Essencial</h2>
-  <p>R$ 19,90 / mês</p>
-  <a class="btn" href="https://SEU-LINK-DE-PAGAMENTO">Assinar</a>
-</div>
-
-<div class="card">
-  <h2>Plano Completo</h2>
-  <p>R$ 20,00 / mês</p>
-  <a class="btn" href="https://SEU-LINK-DE-PAGAMENTO">Assinar</a>
-</div>
 
 </body>
 </html>
